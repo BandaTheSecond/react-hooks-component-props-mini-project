@@ -3,7 +3,7 @@ import Article from "./Article";
 
 function ArticleList({ posts }) {
   return (
-    
+  
     <main>
       {posts.map((post) => (
         <Article
